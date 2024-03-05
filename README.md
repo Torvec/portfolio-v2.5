@@ -3,10 +3,8 @@ My Current Portfolio
 
 <!-- ![Portfolio](./public/assets/img/reactPortfolio.png) -->
 
-
 # Deployment
-https://edward-vonschondorf.dev/
-CloudFlare Pages Deployment
+[CloudFlare Pages Deployment](https://edward-vonschondorf.dev/)
 
 # Tech Stack
 - Vite

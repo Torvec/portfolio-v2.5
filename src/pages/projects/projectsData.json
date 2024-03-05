@@ -53,10 +53,10 @@
   {
     "id": 4,
     "title": "Portfolio v2.0",
-    "description": "My current portfolio built with Vite, React, React Router, and Tailwind CSS. Currently this portfolio is completed but I am working on a v3.0 to exceed all design and functionality of this one.",
+    "description": "Version 2.0 of my portfolio was built with Vite, React, React Router, and Tailwind CSS for my UC Berkeley bootcamp.",
     "image": "reactPortfolio.png",
     "repository": "https://github.com/Torvec/portfolio_v2",
-    "deployment": "https://edward-vonschondorf.dev/",
+    "deployment": "https://torvec.github.io/portfolio_v2/",
     "techStack": ["React", "React Router", "Vite", "Tailwind CSS"],
     "dateCompleted": "October 2023"
   },
@@ -129,6 +129,55 @@
       "GraphQL",
       "Redux",
       "MERN Stack"
+    ],
+    "dateCompleted": "Under Development"
+  },
+  {
+    "id": 7,
+    "title": "Portfolio v2.5",
+    "description": "My current portfolio built with Vite, React, React Router, and Tailwind CSS. It's a major step up from v2.0 while still using the same tech stack.",
+    "image": "portfolioV25.png",
+    "repository": "https://github.com/Torvec/portfolio_v2",
+    "deployment": "https://edward-vonschondorf.dev/",
+    "techStack": ["React", "React Router", "Vite", "Tailwind CSS"],
+    "dateCompleted": "Under Development"
+  },
+  {
+    "id": 8,
+    "title": "Multitask Titan",
+    "description": "A collaborative task completion app for teams and organizations to increase productivity and crush their goals! Inspired by my Task Titan group project from my UC Berkeley bootcamp. This project is currently under development.",
+    "image": null,
+    "repository": "https://github.com/Torvec/multitask-tit",
+    "deployment": "https://github.com/Torvec/multitask-tit",
+    "techStack": ["NextJS", "Tailwind CSS", "Typescript"],
+    "dateCompleted": "Under Development"
+  },
+  {
+    "id": 9,
+    "title": "Hype Your Event",
+    "description": "A social media app about creating and promoting events and allowing users to interact in the event space. Inspired by my wedloc group project from my UC Berkeley bootcamp. This project is currently under development.",
+    "image": null,
+    "repository": "https://github.com/Torvec/hype-your-event",
+    "deployment": "https://github.com/Torvec/hype-your-event",
+    "techStack": ["NextJS", "Tailwind CSS", "Typescript"],
+    "dateCompleted": "Under Development"
+  },
+  {
+    "id": 10,
+    "title": "BrewDOCs",
+    "description": "The BEST app for micro-brewers to keep track of their recipes and brews!",
+    "image": null,
+    "repository": "https://github.com/brewDOCs/BrewDOCs",
+    "deployment": "https://github.com/brewDOCs/BrewDOCs",
+    "techStack": [
+      "NextJS",
+      "Tailwind CSS",
+      "Typescript",
+      "MongoDB",
+      "GraphQL",
+      "Apollo Client",
+      "Apollo Server",
+      "Heroku"
     ],
     "dateCompleted": "Under Development"
   }
