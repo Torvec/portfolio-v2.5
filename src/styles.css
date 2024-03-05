@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This is for the active class that is used by react router's NavLink components */
+
+.active {
+  @apply  text-orange-600 bg-stone-300;
+}
+
+.embla {
+  max-width: 100%;
+  margin: auto;
+  --slide-height: 19rem;
+  --slide-spacing: 1rem;
+  --slide-size: 100%;
+}
+.embla__viewport {
+  overflow: hidden;
+}
+.embla__container {
+  backface-visibility: hidden;
+  display: flex;
+  touch-action: pan-y;
+  margin-left: calc(var(--slide-spacing) * -1);
+}
+.embla__slide {
+  flex: 0 0 var(--slide-size);
+  min-width: 0;
+  padding-left: var(--slide-spacing);
+  background-color: white;
+}
+
+.orangeShadow {
+  box-shadow: 15px 15px 0 0 #EA580C;
+}
+
+.orangeShadow:hover {
+  box-shadow: 20px 20px 0 0 #EA580C;
+}
+
+.blackShadow {
+  box-shadow: 15px 15px 0 0 #292524;
+}
+
+.blackShadow:hover {
+  box-shadow: 20px 20px 0 5px #292524;
+}
