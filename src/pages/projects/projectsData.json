@@ -7,6 +7,7 @@
     "repository": "https://github.com/Torvec/portfolio_v1",
     "deployment": "https://torvec.github.io/portfolio_v1/",
     "techStack": ["HTML", "CSS"],
+    "status": "Completed",
     "dateCompleted": "May 2023"
   },
   {
@@ -26,6 +27,7 @@
       "CheapShark API",
       "Gamepower Free Games API"
     ],
+    "status": "Completed",
     "dateCompleted": "June 2023"
   },
   {
@@ -48,6 +50,7 @@
       "Dragula",
       "Socket IO"
     ],
+    "status": "Completed",
     "dateCompleted": "August 2023"
   },
   {
@@ -58,6 +61,7 @@
     "repository": "https://github.com/Torvec/portfolio_v2",
     "deployment": "https://torvec.github.io/portfolio_v2/",
     "techStack": ["React", "React Router", "Vite", "Tailwind CSS"],
+    "status": "Completed",
     "dateCompleted": "October 2023"
   },
   {
@@ -86,6 +90,7 @@
       "JWT",
       "Socket IO"
     ],
+    "status": "Completed",
     "dateCompleted": "October 2023"
   },
   {
@@ -130,7 +135,8 @@
       "Redux",
       "MERN Stack"
     ],
-    "dateCompleted": "Under Development"
+    "status": "Under Development",
+    "dateCompleted": null
   },
   {
     "id": 7,
@@ -140,7 +146,8 @@
     "repository": "https://github.com/Torvec/portfolio_v2",
     "deployment": "https://edward-vonschondorf.dev/",
     "techStack": ["React", "React Router", "Vite", "Tailwind CSS"],
-    "dateCompleted": "Under Development"
+    "status": "Under Development",
+    "dateCompleted": null
   },
   {
     "id": 8,
@@ -150,7 +157,8 @@
     "repository": "https://github.com/Torvec/multitask-tit",
     "deployment": "https://github.com/Torvec/multitask-tit",
     "techStack": ["NextJS", "Tailwind CSS", "Typescript"],
-    "dateCompleted": "Under Development"
+    "status": "Under Development",
+    "dateCompleted": null
   },
   {
     "id": 9,
@@ -160,7 +168,8 @@
     "repository": "https://github.com/Torvec/hype-your-event",
     "deployment": "https://github.com/Torvec/hype-your-event",
     "techStack": ["NextJS", "Tailwind CSS", "Typescript"],
-    "dateCompleted": "Under Development"
+    "status": "Under Development",
+    "dateCompleted": null
   },
   {
     "id": 10,
@@ -179,6 +188,7 @@
       "Apollo Server",
       "Heroku"
     ],
-    "dateCompleted": "Under Development"
+    "status": "Under Development",
+    "dateCompleted": null
   }
 ]

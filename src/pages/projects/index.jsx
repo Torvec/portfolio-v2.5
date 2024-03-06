@@ -1,4 +1,4 @@
-import ProjectList from "./ProjectList";
+import ProjectsList from "./ProjectsList";
 import PageHeader from "../../layout/components/PageHeader";
 
 export default function Projects() {
@@ -7,7 +7,7 @@ export default function Projects() {
       <PageHeader>Projects</PageHeader>
       <section className="bg-orange-500">
         <div className="p-6 lg:p-10">
-          <ProjectList />
+          <ProjectsList />
         </div>
       </section>
     </>
