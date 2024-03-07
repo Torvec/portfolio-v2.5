@@ -1,12 +1,19 @@
-// TODO: Add props so that it can be sorted in different ways
-
 import projectsData from "./projectsData";
 import ProjectCard from "./ProjectCard";
 
 export default function ProjectsList() {
+  
+  //TODO: Sort by oldest to newest
+  //TODO: Sort by newest to oldest
+  //TODO: Filter by tech used
+  //TODO: Filter by status
+  //TODO: Reset filters
+
+  const reversedProjects = [...projectsData].reverse();
+  
   return (
     <section className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
-      {projectsData.map((project) => (
+      {reversedProjects.map((project) => (
         <ProjectCard key={project.id} project={project} />
       ))}
     </section>
