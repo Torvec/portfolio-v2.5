@@ -12,12 +12,17 @@ import Projects from "./pages/projects";
 import ProjectDetails from "./pages/projects/ProjectDetails";
 import Resume from "./pages/resume";
 import NotFound from "./pages/NotFound";
+import ProjectsError from "./pages/projects/ProjectsError";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path="projects" element={<ProjectsLayout />}>
+      <Route
+        path="projects"
+        element={<ProjectsLayout />}
+        errorElement={<ProjectsError />}
+      >
         <Route index element={<Projects />} />
         <Route path="projectDetails/:id" element={<ProjectDetails />} />
       </Route>

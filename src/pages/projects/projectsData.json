@@ -145,11 +145,17 @@
     "image": "portfolioV25.png",
     "repository": "https://github.com/Torvec/portfolio_v2",
     "deployment": "https://edward-vonschondorf.dev/",
-    "techStack": ["React", "React Router", "Vite", "Tailwind CSS", "Framer Motion"],
+    "techStack": [
+      "React",
+      "React Router",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
     "status": "Under Development",
     "dateCompleted": null
   },
-    {
+  {
     "id": 8,
     "title": "BrewDOCs",
     "description": "The BEST app for micro-brewers to keep track of their recipes and brews!",
