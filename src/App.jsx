@@ -8,6 +8,7 @@ import "./styles.css";
 import RootLayout from "./layout/RootLayout";
 import ProjectsLayout from "./layout/ProjectsLayout";
 import Home from "./pages/home";
+import About from "./pages/about";
 import Projects from "./pages/projects";
 import ProjectDetails from "./pages/projects/ProjectDetails";
 import Resume from "./pages/resume";
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
       <Route
         path="projects"
         element={<ProjectsLayout />}

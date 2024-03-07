@@ -31,7 +31,7 @@ export default function Header() {
           <Link to="/">
             <EVLogo className="my-1 h-14 w-14 pr-2 md:my-0 lg:pr-6" />
           </Link>
-          <HeaderNavLink borderClass="border-l-2 border-stone-900" to="/">
+          <HeaderNavLink borderClass="border-l-2 border-stone-900" to="/about">
             About
           </HeaderNavLink>
           <HeaderNavLink

@@ -1,3 +1,5 @@
+// TODO: Make this page look better
+
 import { useRouteError, Link } from "react-router-dom";
 
 export default function NotFound() {

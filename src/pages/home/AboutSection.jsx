@@ -1,11 +1,18 @@
+import ProfilePicURL from "/assets/img/me.png";
+
 function AboutSection() {
   return (
     <section className="p-10">
       <div className="flex flex-col gap-10 lg:flex-row">
         <div>
-          <h2 className="mb-5 text-center text-6xl md:text-left">
-            About Me
-          </h2>
+          <img
+            src={ProfilePicURL}
+            alt="Pic of me at Horseshoe Canyon in Arizona"
+            className="border-stone-900 border-2 object-cover"
+          />
+        </div>
+        <div>
+          <h2 className="mb-5 text-center text-6xl md:text-left">About Me</h2>
           <p className="mb-5 px-5 text-lg md:px-0 md:text-xl">
             Hi there! I am a full stack developer with a passion for creating
             beautiful and functional web applications. I have experience in

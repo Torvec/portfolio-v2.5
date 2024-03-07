@@ -1,27 +1,18 @@
-import ProfilePicURL from "/assets/img/me.png";
-
 function HeroSection() {
   return (
-    <section className="flex justify-center border-b-2 border-stone-500 bg-stone-200 bg-fixed px-2 py-36 text-5xl font-bold text-stone-100 md:text-6xl lg:text-7xl">
-      <div className="flex flex-col border-4 border-stone-900 bg-stone-950 md:flex-row">
-        <div>
-          <img
-            src={ProfilePicURL}
-            alt="Pic of me at Horseshoe Canyon in Arizona"
-            className="max-h-96 min-h-full min-w-full border-x-stone-900 object-cover md:border-r-4"
-          />
-        </div>
-        <div className="flex flex-col">
-          <h1>
-            <span className="block bg-stone-800 px-5 py-3">Edward</span>
-            <span className="block bg-stone-800 px-5 py-3">Vonschondorf</span>
-          </h1>
-          <h2>
-            <span className="block bg-orange-500 px-5 py-3">Full Stack</span>
-            <span className="block bg-orange-500 px-5 py-3">Web Developer</span>
-          </h2>
-        </div>
-      </div>
+    <section className="flex flex-col items-center justify-center gap-5 border-b-2 border-stone-900 bg-stone-300 py-20 text-stone-100">
+      <span className="bg-stone-900 p-5 text-5xl font-bold md:text-6xl lg:text-8xl md:-translate-x-48">
+        Edward
+      </span>
+      <span className="bg-stone-900 p-5 text-5xl font-bold md:text-6xl lg:text-8xl md:translate-x-16">
+        Vonschondorf
+      </span>
+      <span className="bg-orange-500 p-5 text-5xl font-bold md:text-6xl lg:text-8xl md:translate-x-16">
+        Full Stack
+      </span>
+      <span className="bg-orange-500 p-5 text-5xl font-bold md:text-6xl lg:text-8xl">
+        Web Developer
+      </span>
     </section>
   );
 }
