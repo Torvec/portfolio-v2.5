@@ -6,11 +6,17 @@ import { Outlet } from "react-router-dom";
 export default function Root() {
   return (
     <>
+      <section className="flex justify-center border-b-2 border-stone-900 bg-yellow-300 font-bold">
+        CURRENTLY UNDER DEVELOPMENT
+      </section>
       <Header />
       <main className="bg-stone-100 font-sans text-stone-800">
         <Outlet />
       </main>
       <Footer />
+      <section className="flex justify-center border-b-2 border-stone-900 bg-yellow-300 font-bold">
+        CURRENTLY UNDER DEVELOPMENT
+      </section>
     </>
   );
 }

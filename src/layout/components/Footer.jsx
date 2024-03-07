@@ -27,10 +27,17 @@ export default function Footer() {
   };
 
   return (
-    <>
-      <footer className="flex flex-col items-center gap-5 border-t-2 border-stone-200 bg-stone-900 p-5 px-2 text-center font-sans uppercase text-stone-200 md:flex-row md:items-baseline md:justify-between md:text-lg lg:p-10">
-        <p>&copy; {getCurrentYear()} Edward Vonschondorf</p>
-        <div className="flex flex-col justify-center gap-6 lg:flex-row lg:gap-12">
+    <footer className="flex gap-5 border-t-2 border-stone-200 bg-stone-900 px-5 py-10 font-sans text-stone-200 md:flex-row md:items-baseline md:justify-between md:text-lg lg:p-10">
+      <div className="w-2/3">
+        <p className="mb-2">&copy; {getCurrentYear()} Edward Vonschondorf</p>
+        <SocialLink href="mailto:me@edward-vonschondorf.dev" newTab={false}>
+          <span>Contact Me</span>
+          <EmailIcon className="h-6 w-6" />
+        </SocialLink>
+      </div>
+      <div className="flex flex-col gap-2 w-1/3">
+        <p className="font-bold">Socials:</p>
+        <div className="flex flex-col gap-2 lg:flex-row lg:gap-12">
           <SocialLink href="https://www.linkedin.com/in/edward-von/">
             <span>LinkedIn</span>
             <UpArrowIcon className="h-5 w-5" />
@@ -47,15 +54,8 @@ export default function Footer() {
             <span>Youtube</span>
             <UpArrowIcon className="h-5 w-5" />
           </SocialLink>
-          <SocialLink href="mailto:me@edward-vonschondorf.dev" newTab={false}>
-            <span>E-Mail</span>
-            <EmailIcon className="h-6 w-6" />
-          </SocialLink>
         </div>
-      </footer>
-      <section className="flex justify-center border-t-2 border-stone-500 bg-yellow-300 font-bold">
-        CURRENTLY UNDER DEVELOPMENT
-      </section>
-    </>
+      </div>
+    </footer>
   );
 }
