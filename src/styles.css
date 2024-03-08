@@ -38,11 +38,3 @@
 .orangeShadow:hover {
   box-shadow: 20px 20px 0 0 #EA580C;
 }
-
-.blackShadow {
-  box-shadow: 15px 15px 0 0 #292524;
-}
-
-.blackShadow:hover {
-  box-shadow: 20px 20px 0 5px #292524;
-}

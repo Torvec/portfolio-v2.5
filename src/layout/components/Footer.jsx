@@ -27,7 +27,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="flex gap-5 border-t-2 border-stone-200 bg-stone-900 px-5 py-10 font-sans text-stone-200 md:flex-row md:items-baseline md:justify-between md:text-lg lg:p-10">
+    <footer className="flex gap-5 border-t-4 border-stone-200 bg-stone-900 px-5 py-10 font-sans text-stone-200 md:flex-row md:items-baseline md:justify-between md:text-lg lg:p-10">
       <div className="w-2/3">
         <p className="mb-2">&copy; {getCurrentYear()} Edward Vonschondorf</p>
         <SocialLink href="mailto:me@edward-vonschondorf.dev" newTab={false}>

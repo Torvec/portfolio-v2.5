@@ -1,18 +1,36 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="blackShadow flex max-w-full flex-col border-2 border-stone-900 bg-stone-100 transition-all duration-300 ease-in-out hover:-translate-x-2 hover:-translate-y-2 hover:bg-stone-200">
+    // TODO: Animation is weird on hover exit, everything else is fine, need to fix it
+    <motion.div
+      initial={{
+        boxShadow: "0 0 0 0 #292524",
+        transition: { duration: 0.3, ease: "easeInOut", stiffness: 260 },
+      }}
+      whileInView={{
+        boxShadow: "15px 15px 0 0 #292524",
+        transition: { duration: 0.3, ease: "easeInOut", stiffness: 260 },
+      }}
+      whileHover={{
+        x: -8,
+        y: -8,
+        boxShadow: "20px 20px 0 5px #292524",
+        transition: { duration: 0.3, ease: "easeInOut", stiffness: 260 },
+      }}
+      className="flex max-w-full flex-col border-4 border-stone-900 bg-stone-100 hover:bg-stone-200"
+    >
       <Link to={`/projects/projectDetails/${project.id}`}>
         {project.image ? (
           <img
             src={`/assets/img/${project.image}`}
             alt={project.title}
-            className="h-96 w-full border-b-2 border-stone-900 object-cover"
+            className="h-96 w-full border-b-4 border-stone-900 object-cover"
           />
         ) : (
-          <p className="flex h-96 w-full items-center justify-center border-b-2 border-stone-900 bg-stone-300 font-bold">
+          <p className="flex h-96 w-full items-center justify-center border-b-4 border-stone-900 bg-stone-300 font-bold">
             Image Not Available - Work In Progress
           </p>
         )}
@@ -29,7 +47,7 @@ export default function ProjectCard({ project }) {
           </p>
         </div>
       </Link>
-    </div>
+    </motion.div>
   );
 }
 

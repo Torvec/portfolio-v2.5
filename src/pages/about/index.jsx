@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <PageHeader>About Me</PageHeader>
-      <section className="space-y-5 p-5 text-xl lg:p-10">
+      <section className="space-y-10 p-5 text-xl lg:p-10">
         <div className="border-2 border-stone-900 bg-stone-200 p-5 lg:p-10 space-y-5">
           <h2 className="text-4xl">The Highlights</h2>
           <p>
