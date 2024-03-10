@@ -3,12 +3,6 @@ import ProjectCard from "./ProjectCard";
 
 export default function ProjectsList() {
   
-  //TODO: Sort by oldest to newest
-  //TODO: Sort by newest to oldest
-  //TODO: Filter by tech used
-  //TODO: Filter by status
-  //TODO: Reset filters
-
   const reversedProjects = [...projectsData].reverse();
   
   return (

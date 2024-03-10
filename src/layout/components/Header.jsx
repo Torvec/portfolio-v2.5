@@ -21,24 +21,24 @@ export default function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between border-b-4 border-stone-900 bg-stone-100">
+    <header className="flex items-center justify-between border-b-2 border-stone-900 bg-stone-100">
       <nav className="text-md flex items-center font-semibold lg:text-lg">
         <Link to="/">
           <EVLogo className="h-10 w-10 m-1 hover:mx-2 transition-all duration-300 ease-in-out" />
         </Link>
-        <HeaderNavLink borderClass="border-l-4 border-stone-900" to="/about">
+        <HeaderNavLink borderClass="border-l-2 border-stone-900" to="/about">
           About
         </HeaderNavLink>
-        <HeaderNavLink borderClass="border-x-4 border-stone-900" to="/projects">
+        <HeaderNavLink borderClass="border-x-2 border-stone-900" to="/projects">
           Projects
         </HeaderNavLink>
-        <HeaderNavLink borderClass="border-r-4 border-stone-900" to="/resume">
+        <HeaderNavLink borderClass="border-r-2 border-stone-900" to="/resume">
           Resume
         </HeaderNavLink>
       </nav>
       <a
         href="mailto:me@edward-vonschondorf.dev"
-        className="px-4 hover:px-6 flex self-stretch items-center border-l-4 border-orange-900 bg-orange-500 text-stone-100 transition-all duration-300 ease-in-out hover:border-stone-900 hover:bg-stone-300 hover:text-stone-900"
+        className="px-4 hover:px-6 flex self-stretch items-center border-l-2 border-orange-900 bg-orange-500 text-stone-100 transition-all duration-300 ease-in-out hover:border-stone-900 hover:bg-stone-300 hover:text-stone-900"
       >
         Contact
       </a>

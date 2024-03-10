@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function HeroSection() {
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center gap-5 border-b-4 border-stone-900 bg-stone-300 py-20 text-5xl font-bold text-stone-100 md:text-6xl lg:text-8xl">
+    <section className="flex flex-col items-center justify-center gap-5 border-b-4 border-stone-900 bg-stone-300 py-20 text-5xl font-bold text-stone-100 md:text-6xl lg:text-8xl">
       <motion.span
         initial={{
           x: "-100vw",
