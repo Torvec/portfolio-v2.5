@@ -1,13 +1,5 @@
-# Portfolio
-My Current Portfolio
+# Portfolio v2.5
 
-<!-- ![Portfolio](./public/assets/img/reactPortfolio.png) -->
+This version of my portfolio was never finished but it is deployed 'as is' on github pages.
 
-# Deployment
-[CloudFlare Pages Deployment](https://edward-vonschondorf.dev/)
-
-# Tech Stack
-- Vite
-- React
-- React Router
-- Tailwind CSS
+My current portfolio can be found at [edward-vonschondorf.dev](https://edward-vonschondorf.dev)
